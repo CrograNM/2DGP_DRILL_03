@@ -50,21 +50,19 @@ def run_rectangle():
     run_bottom_left()
     pass # pass : 유보기능 - C로 따지면 아무것도 없는 빈 함수
 
-def run_tri_bottom_right():
-    pass
 def run_tri_right():
+    print('run_tri_right')
     pass
 def run_tri_left():
-    pass
-def run_tri_bottom_left():
+    print('run_tri_left')
     pass
 
 def run_triangle():
     print('Triangle')
-    run_tri_bottom_right()
+    run_bottom_right()
     run_tri_right()
     run_tri_left()
-    run_tri_bottom_left()
+    run_bottom_left()
     pass
 
 def run_circle():
