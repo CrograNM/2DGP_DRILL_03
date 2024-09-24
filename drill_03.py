@@ -51,10 +51,18 @@ def run_rectangle():
     pass # pass : 유보기능 - C로 따지면 아무것도 없는 빈 함수
 
 def run_tri_right():
-    print('run_tri_right')
+    print('tri_right')
+    y = 50
+    for x in range(750, 400, -10):
+        draw_boy(x, y)
+        y += 10
     pass
 def run_tri_left():
-    print('run_tri_left')
+    print('tri_left')
+    y = 400
+    for x in range(400, 50, -10):
+        draw_boy(x, y)
+        y -= 10
     pass
 
 def run_triangle():
