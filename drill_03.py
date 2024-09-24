@@ -87,7 +87,7 @@ while(1) :
     run_circle()
     run_rectangle()
     run_triangle()
-    break
+    # break
     # **TOP-DOWN-DESIGN : 큰 틀을 잡고 내부를 채우는 하향식 설계 방식**
 
 close_canvas()
